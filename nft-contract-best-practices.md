@@ -17,3 +17,11 @@ The `tx.origin` is the address that kicked-off the transaction and the `msg.send
 This can still be worked around with a script that kicks off a bunch of transaction, but adds a little bit of friction to malicious actors.
 
 Source: https://twitter.com/dievardump/status/1435322083060424704
+
+### Consider approving OpenSea trades to save sellers gas
+
+Before you can sell an NFT on OpenSea, you have to approve OpenSea to trade on your behalf. This happens for each contract through `setApprovalForAll`.
+
+You can bypass this step for your users by writing your contract in a way that automatically considers OpenSea approved to trade on their behalf.
+
+https://twitter.com/mannynotfound/status/1470535477191221261
