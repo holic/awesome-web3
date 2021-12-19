@@ -25,3 +25,4 @@ Before you can sell an NFT on OpenSea, you have to approve OpenSea to trade on y
 You can bypass this step for your users by writing your contract in a way that automatically considers OpenSea approved to trade on their behalf.
 
 https://twitter.com/mannynotfound/status/1470535477191221261
+https://github.com/divergencetech/ethier/blob/main/contracts/erc721/OpenSeaGasFreeListing.sol
