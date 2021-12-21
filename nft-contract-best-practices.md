@@ -26,3 +26,8 @@ You can bypass this step for your users by writing your contract in a way that a
 
 https://twitter.com/mannynotfound/status/1470535477191221261
 https://github.com/divergencetech/ethier/blob/main/contracts/erc721/OpenSeaGasFreeListing.sol
+
+### Considerations for generating pseudo-random numbers
+
+- `block.timestamp` can be modified by miners within a range of time. Don't use only this as a source of randomness.
+- TODO: something about block difficulty going away with PoS
