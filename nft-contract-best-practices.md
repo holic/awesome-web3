@@ -31,3 +31,7 @@ https://github.com/divergencetech/ethier/blob/main/contracts/erc721/OpenSeaGasFr
 
 - `block.timestamp` can be modified by miners within a range of time. Don't use only this as a source of randomness.
 - TODO: something about block difficulty going away with PoS
+
+### Other reading
+
+- https://nftchance.medium.com/the-gas-efficient-way-of-building-and-launching-an-erc721-nft-project-for-2022-b3b1dac5f2e1
